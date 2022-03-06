@@ -36,3 +36,25 @@ body{
     margin: 8px 40px;
 }
 
+/* home */
+
+#home{
+    display: grid;
+    margin: 40px;
+    gap: 20px;
+    text-align: center;
+}
+
+.foto {
+    width: 400px;
+    justify-self: center;
+    
+}
+
+/* sobre */
+#sobre{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+}
+
