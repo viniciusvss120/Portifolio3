@@ -62,3 +62,24 @@ body{
     justify-content: center;
 }
 
+/* linguagens */
+#linguagens {
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+}
+
+.linguagens-programacao{
+    display: flex;
+    gap: 20px;
+    border: 1px solid red;
+    padding: 10px 20px;
+}
+
+.linguagens-programacao li {
+    align-items: center;
+}
+
+
+
+
