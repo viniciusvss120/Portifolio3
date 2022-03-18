@@ -1,13 +1,14 @@
-h1,h2,p,ul,li,a{
+h1,h2,p,ul,li,a,span{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    color: aliceblue;
 }
 
 a{
     text-decoration: none;
-    color: black;
-}
+    /* color: white;*/
+} 
 
 h2 {
     text-align: center;
@@ -16,16 +17,18 @@ h2 {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+     
+     background-image: url(img/20200909175214828.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    margin: 40px
 }
 
-.menu h2 {
-    align-self: start;
-}
 
 .nav {
     display: flex;
@@ -33,12 +36,13 @@ body{
 }
 
 .nav a{
-    border: 1px solid #ccc;
+    
     padding: 10px;
     border-radius: 4px;
 }
 .nav a:hover{
-    font-size: 20px;
+    border: 2px solid red;
+    
 }
 
 
@@ -54,7 +58,7 @@ body{
 
 .foto {
     width: 400px;
-    justify-self: center;
+    
     
 }
 
