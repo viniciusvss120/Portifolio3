@@ -2,7 +2,7 @@ h1,h2,p,ul,li,a,span{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
 a{
@@ -17,18 +17,19 @@ h2 {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-     
-     background-image: url(img/20200909175214828.jpg); 
-     background-repeat: no-repeat;
-     background-size: cover;
+
+    /* background-image: radial-gradient(black, white); */
 }
 
 .menu{
     display: flex;
     justify-content: start;
-    margin: 40px
+    margin: 20px 20px;
 }
 
+.menu h2 {
+    align-self: start;
+}
 
 .nav {
     display: flex;
@@ -51,15 +52,25 @@ body{
 
 #home{
     display: grid;
+    grid-template-columns: 700px 1fr;
     margin: 40px;
     gap: 20px;
     text-align: center;
 }
 
+.apresentacao {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    font-size: 2.5rem;
+}
+
 .foto {
-    width: 400px;
-    
-    
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
+    justify-self: end;
+    grid-column: 2;
 }
 
 /* sobre */
