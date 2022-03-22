@@ -13,24 +13,36 @@
         <div class="menu">
             <ul class="nav">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Linguagens</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#linguagens">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </div>
     </header>
-   
+   <main> 
     <section id="home">
-        <img class="foto" src="img/20200909175214828.jpg" alt="">
-        <span class="apresentacao">Olá, meu nome é Vinicius Silva Souza e sou desenvolvedor front-end</span>
+        <div class="apresentacao">
+            <p class="saudacao">Seja bem vindo !</p>
+            <p>Olá, eu sou Vinicius Silva </p>
+            <p class="profissao">Desenvolvedor front-end</p>
+              <button class="botao">Acessar Github</button>
+              <button class="botao">Acessar Linkdin</button>
+            
+        </div>
+        <div class="foto">
+            <img src="img/20200909175214828.jpg" alt="">
+        </div>
     </section>
     <section id="sobre">
-        <h3>Sobre mim</h3>
-        <p>Estou estudando programação a 1 ano, atualmente tenho dominido básico de JavaScrpt, HTML/CS e Vue.</p>
+        <dl>
+            <dt>Sobre mim</dt>
+            <dd>Olá, me chamo Vinicius Silva, trabalho desde abriu de 2021 no departamento de TI na empresa Irmãos Gonçalves, autalmete oculpo a função de auxiliar de TI. Estou estudando programação a 1 ano, atualmente tenho conhecimento básico de JavaScrpt, HTML/CS e Vue. Antes de trabalhar na TI, eu era zelador, quando eu recebi a proposta de trabalhar na TI eu começei a estudar programação. Eu nunca havia estudado programação, quando eu vi os a capacidade de fazer coisas fantasticas nesta área, eu fiquei encantado e decidi ir a fundo nesta area.</dd>
+        </dl>
+     
     </section>
     <section id="linguagens">
-        <h3>Linguagens</h3>
+        <h3>Habilidades</h3>
         <ul class="linguagens-programacao">
             <li>JavaScrpt</li>
             <li>HTML</li>
@@ -40,6 +52,8 @@
     </section>
     <section id="projetos"></section>
     <section id="contato"></section>
+   </main>
+  
     <footer id="rodape"></footer>
 </body>
 <script src="script.js"></script>
