@@ -26,9 +26,14 @@ body{
 
 /* header */
 .menu{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: start;
-    margin: 20px 20px;
+    margin: 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
 }
 
 .menu h2 {
@@ -108,6 +113,7 @@ body{
     margin-right: 10px;
     padding: 10px;
     border-radius: 4px;
+    cursor: pointer;
     border: none;
     transition: .2s;
 }
@@ -125,14 +131,23 @@ body{
     margin: 80px;
     color: #f7f7f7;
     justify-content: center;
+    box-shadow: 0px 0px 15px gold ;
 }
 
 #sobre dt {
     text-align: center;
     margin-bottom: 10px;
     font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     font-weight: bold;
-    
+}
+
+#sobre dd {
+    text-indent: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 25px;
 }
 
 /* linguagens */
@@ -153,6 +168,10 @@ body{
 
 .linguagens-programacao li {
     align-items: center;
+}
+
+.linguagens-programacao li img{
+    max-width: 100%;
 }
 
 
