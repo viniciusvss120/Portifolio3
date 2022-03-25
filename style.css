@@ -22,6 +22,8 @@ body{
     background: #f7f7f7;
     background-image: linear-gradient(#000428,#004e92);
     background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* header */
