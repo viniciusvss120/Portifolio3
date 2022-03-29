@@ -189,8 +189,12 @@ body{
     margin-right: 60px;
     box-shadow: 0px 0px 15px white ;
     
-    
 }
+
+.linguagens-programacao li img:hover{
+    padding: 10px;
+}
+
 .linguagens-programacao li .vue{
     width: 30.5rem;
 }
