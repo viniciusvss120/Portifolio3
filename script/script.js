@@ -29,7 +29,7 @@ function slide() {
     console.log(sections)
 
     if(sections.length) {
-        const windowMetade = window.innerHeight * 0.6
+        const windowMetade = window.innerHeight * 0.75
         console.log(windowMetade)
     
 
@@ -45,6 +45,8 @@ function slide() {
                 //console.log(sectionTop)
                 if(isSectionVisible) {
                     section.classList.add('ativo')
+                }else{
+                    section.classList.remove('ativo')
                 }
             }) 
         
