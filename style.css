@@ -18,7 +18,7 @@ h2 {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    height: 1600px;
+    /* height: 1600px; */
     background: #f7f7f7;
     background-image: linear-gradient(#000428,#004e92);
     background-repeat: repeat;
@@ -26,14 +26,14 @@ body{
     padding: 0px;
 }
 
+
 /* header */
 .menu{
     display: grid;
     grid-template-columns: 1fr;
     justify-content: start;
     font-size: 1.5rem;
-    
-    background: rgba(0, 0, 255, 0.39);
+    background: #0000;
     border-radius: 4px;
     position: fixed;
     top: 0px;
@@ -48,6 +48,59 @@ body{
 .nav {
     display: flex;
     gap: 60px;
+}
+
+/* .hamburgue  {
+    display: none;
+} */
+
+@media (min-width: 801px) {
+    header .hamburgue, .menu-mobile{
+    display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .menu {
+        display: none;
+    }
+    
+    .menu-fixo{
+        position: fixed;
+        z-index: 1;
+        top: 20px;
+    }
+
+    .menu-mobile {
+        display: grid;
+        grid-template-columns: 160px;
+        margin-left: 10px;
+        grid-gap: 15px;
+        
+    }
+    
+    .hamburgue {
+        margin-top: 10px ;
+        margin-left: 20px;
+    }
+    
+    .menu-mobile li {
+        background: #f7f7f7;
+    }
+    
+    .menu-mobile a{
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.5rem;
+        color: #000000; 
+    }
+    
+    .menu-mobile li:hover{
+        background: #c7c8cca6;
+    }
+    .ativo{
+        display: none;
+    }
 }
 
 .nav a{
@@ -77,6 +130,7 @@ body{
 .apresentacao {
     align-self: center;
     
+    
 }
 
 .apresentacao .saudacao {
@@ -96,16 +150,13 @@ body{
     margin-bottom: 20px
 }
 
-.foto img{
-    position: relative;
-    left: 155px;
-    width: 500px;
-    height: 300px;
+.foto img {
+    max-width: 80%;
     border-radius: 10%;
-    justify-self: end;
-    grid-column: 2;
-    grid-row: 1;
+    position: relative;
+    left: 200px;
 }
+
 
 .botao {
     /* position: relative;
@@ -287,17 +338,6 @@ body{
 
 }
 
-@keyframes slide{
-    from{
-        opacity: 0;
-        transform: translate3d(-30, 0, 0);
-    }
-
-    to{
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
 
 
 
