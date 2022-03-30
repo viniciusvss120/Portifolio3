@@ -50,9 +50,6 @@ body{
     gap: 60px;
 }
 
-/* .hamburgue  {
-    display: none;
-} */
 
 @media (min-width: 801px) {
     header .hamburgue, .ativo1{
@@ -186,6 +183,27 @@ body{
     display: block;
     margin-bottom: 10px;
    }
+}
+
+@media (max-width: 800px) {
+    #home{
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+
+    .apresentacao {
+        grid-row: 2;
+    }
+
+    .foto img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        left: 10px;
+        top: 25px
+        
+    }
 }
 
 
