@@ -68,7 +68,7 @@ body{
     .menu-fixo{
         position: fixed;
         z-index: 1;
-        top: 20px;
+        top: 50px;
     }
 
     .menu-mobile {
