@@ -55,13 +55,16 @@ body{
 } */
 
 @media (min-width: 801px) {
-    header .hamburgue, .menu-mobile{
+    header .hamburgue, .ativo1{
     display: none;
     }
 }
 
 @media (max-width: 800px){
     .menu {
+        display: none;
+    }
+    .ativo1{
         display: none;
     }
     
@@ -98,9 +101,7 @@ body{
     .menu-mobile li:hover{
         background: #c7c8cca6;
     }
-    .ativo2{
-        display: none;
-    }
+  
 }
 
 .nav a{

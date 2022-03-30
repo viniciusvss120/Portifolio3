@@ -62,11 +62,11 @@ slide()
 
 //menu
 
-const menu = document.querySelector('.menu-mobile')
+const menu = document.querySelector('.ativo1')
 const img = document.querySelector('.hamburgue')
 
 function esconderMenu() {
-    menu.classList.toggle('ativo2')
+    menu.classList.toggle('menu-mobile')
 }
 
 img.addEventListener('click', esconderMenu)
