@@ -68,7 +68,7 @@ body{
     .menu-fixo{
         position: fixed;
         z-index: 1;
-        top: 50px;
+        top: 40px;
     }
 
     .menu-mobile {
@@ -98,7 +98,7 @@ body{
     .menu-mobile li:hover{
         background: #c7c8cca6;
     }
-    .ativo{
+    .ativo2{
         display: none;
     }
 }

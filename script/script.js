@@ -66,7 +66,7 @@ const menu = document.querySelector('.menu-mobile')
 const img = document.querySelector('.hamburgue')
 
 function esconderMenu() {
-    menu.classList.toggle('ativo')
+    menu.classList.toggle('ativo2')
 }
 
 img.addEventListener('click', esconderMenu)
