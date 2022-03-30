@@ -306,6 +306,7 @@ body{
 #contato{
     display: grid;
     grid-template-columns: auto;
+    margin: 10px 20px ;
     
 }
 
