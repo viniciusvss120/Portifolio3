@@ -149,10 +149,10 @@ body{
 }
 
 .foto img {
-    max-width: 80%;
+    max-width: 60%;
     border-radius: 10%;
     position: relative;
-    left: 200px;
+    left: 500px;
 }
 
 
@@ -188,7 +188,7 @@ body{
 @media (max-width: 800px) {
     #home{
         display: grid;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: 1fr 1fr;
         justify-content: space-between;
     }
 
@@ -199,7 +199,7 @@ body{
 
     .foto img{
         display: block;
-        max-width: 100%;
+        max-width: 80%;
         margin-bottom: 5px;
         position: relative;
         left: 10px;
