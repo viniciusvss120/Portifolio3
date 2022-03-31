@@ -217,8 +217,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 80px;
     color: #f7f7f7;
-    justify-content: center;
-    box-shadow: 0px 0px 15px white ;
+    
 }
 
 #sobre dt {
@@ -230,13 +229,15 @@ body{
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-weight: bold;
+    
 }
 
 #sobre dd {
     text-indent: 3rem;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 1.5rem;
 }
 
 /* linguagens */
