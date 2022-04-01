@@ -268,7 +268,7 @@ body{
 }
 
 .linguagens-programacao li img:hover{
-    padding: 10px;
+    box-shadow: 0px 0px 15px gold ;
 }
 
 .linguagens-programacao li .vue{
@@ -353,6 +353,7 @@ body{
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 380px) {
