@@ -178,6 +178,10 @@ body{
     
 }
 
+.botao a{
+    color: #000428;
+}
+
 @media (max-width: 990px) {
    .botao{
     display: block;
