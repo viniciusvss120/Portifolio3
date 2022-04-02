@@ -132,6 +132,7 @@ img {
     color: #f7f7f7;
     gap: 20px;
     justify-items: center;
+    animation: slide .5s;
     /* text-align: center; */
 }
 
@@ -221,6 +222,17 @@ img {
         top: 20px
         
     }
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
 }
 
 
